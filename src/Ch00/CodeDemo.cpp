@@ -11,7 +11,7 @@ int main(){
     std::cin >> num_1;
     std::cout << "Enter number 2: " << std::flush;
     std::cin >> num_2;
-    
+    // If you click the red dot in line it will create a breakpoint which allows you to run the code up until that point
     result = num_1 + num_2;
     
     std::cout << "The result of the addition is " << result << std::endl;
