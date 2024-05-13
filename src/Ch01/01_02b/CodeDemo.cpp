@@ -6,6 +6,8 @@
 
 // IO Stream helps recieve text from keyboard and helps print things on a screen
 #include <iostream>
+// allows you to get string from user
+#include <string>
 
 // Starting function block with "int" to represent initialize
 
@@ -19,4 +21,13 @@ int main(){
     return(0);
 
 
+
 }
+
+int challenge(){
+    std::string str;
+    std::cin >> str;
+    std:: cout <<str;
+
+}
+
